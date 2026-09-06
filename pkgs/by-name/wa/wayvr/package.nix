@@ -149,6 +149,7 @@ rustPlatform.buildRustPackage (finalAttrs: {
     maintainers = with lib.maintainers; [
       Scrumplex
       ImSapphire
+      ShyAssassin
     ];
     platforms = lib.platforms.linux;
     broken = stdenv.hostPlatform.isAarch64 && withOpenVR;
